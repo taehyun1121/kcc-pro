@@ -12,7 +12,7 @@ function CustomRadio(props) {
             <div className="customCheck" />
             <span>{el.label}</span>
             <input
-              type="checkbox"
+              type="radio_"
               id={el.value}
               checked={isChecked}
               onClick={() =>
